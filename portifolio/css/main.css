@@ -1,0 +1,57 @@
+main {
+padding: 5%;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+    
+}
+
+section {
+    padding:  1.8em;
+
+
+}
+
+#sobre {
+    padding: 5em 0 ;
+    justify-content: start;
+}
+
+aside {
+    padding: 5em;
+    
+    cursor: pointer;
+
+
+    align-items: center;
+}
+
+#foto-pessoal {
+    border-radius: 50% ;
+    border: solid white 1px;
+    height: 200px;
+}
+
+span {
+    margin-left: 2.5em;
+}
+
+.icon-tech {
+    height: 50px;
+    margin: 0.2em;
+    cursor: pointer;
+}
+
+.icon-tech:hover {
+    height: 55px;
+    transition: 0.2s ease-in-out;
+    filter: drop-shadow(-1px 1px 10px white);
+}
+
+#foto-pessoal:hover {
+    transition: 0.2 ease-in-out;
+    filter: drop-shadow(-1px 1px 10px white);
+    border-radius: 0%;
+
+}
