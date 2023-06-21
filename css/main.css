@@ -55,3 +55,34 @@ span {
     border-radius: 0%;
 
 }
+
+#curriculo {
+    margin-top: 20px;
+}
+
+.material-symbols-outlined {
+    margin-left: 5px;
+}
+
+#hover {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+    width: 250px;
+}
+
+#baixar{
+    color: black;
+    font-weight: bold;
+}
+
+#hover:hover {
+    background-color: white;
+    color: black;
+    
+    letter-spacing: 10px;
+
+    border-radius: 5px;
+    
+}
